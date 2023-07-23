@@ -3,19 +3,19 @@ if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
 throw false
 }
+let vn = './media/Invocar.mp3'
 let pesan = args.join` `
-let oi = `@ɴɪɢᴛʜᴍᴀʀᴇs_ғғ: ${pesan}`
-let teks = `😜🍄ᴀᴄᴛɪᴠᴇɴ ʜᴏɴɢᴜɪᴛᴏs🍄😜
-\n\n❏ ${oi}\n❏ 𝐄𝐭𝐢𝐪𝐮𝐞𝐭𝐚𝐬: \n`
+let oi = `*@tj_deadpool__* ${pesan}`
+let teks = `*EL QUE TENGA MIEDO DE MORIR, QUE NO NAZCA*\n\n ${oi}\n\n🫶🏻 ➢ 𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂\n`
 for (let mem of participants) {
-teks += `👻💕 @${mem.id.split('@')[0]}\n`}
-teks += `➥Bᴏɴɴɪ💕`
+teks += `⚜️•.  @${mem.id.split('@')[0]}\n`}
+teks += `*🐾DeadpoolBot*\n\n*😼♥️*`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
+conn.sendFile(m.chat, vn, 'Invocar.mp3', null, m, true, { type: 'audioMessage', ptt: true, sendEphemeral: true })
 }
 handler.help = ['tagall <mesaje>','invocar <mesaje>']
 handler.tags = ['group']
-handler.command = /^(tagall|invocar|invocacion|todos|invocación)$/i
+handler.command = /^(tagall|invocar|todas|todos|todes|fantasmas|adornos|plantas)$/i
 handler.admin = true
 handler.group = true
-handler.register = true
 export default handler
