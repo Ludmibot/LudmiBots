@@ -1068,7 +1068,7 @@ let chatgptUser = global.chatgpt.data.users[m.sender];
             let _prefix = plugin.customPrefix ? plugin.customPrefix : conn.prefix ? conn.prefix : global.prefix
             let match = (_prefix instanceof RegExp ? // RegExp Mode?
                 [[_prefix.exec(m.text), _prefix]] :
-                Array.isArray(_prefix) ? // Array?
+                Array.isArray(_prefix) ? // Array?2
                     _prefix.map(p => {
                         let re = p instanceof RegExp ? // RegExp in Array?
                             p :
@@ -1435,8 +1435,8 @@ export async function callUpdate(callUpdate) {
     let callmsg = await this.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? 'videollamadas' : 'llamadas'} no están permitidas, serás bloqueado.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, { mentions: [nk.from] })
     //let data = global.owner.filter(([id, isCreator]) => id && isCreator)
     //await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-    let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭 ✍;;;\nFN:𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭 ✍\nORG:𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭 ✍\nTITLE:\nitem1.TEL;waid=51935763050:+51 935 763 050\nitem1.X-ABLabel:𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭 ✍\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭 ✍\nEND:VCARD`
-    await this.sendMessage(nk.from, { contacts: { displayName: '𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭 ✍', contacts: [{ vcard }] }}, {quoted: callmsg})
+    let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Gabi Bot 🗣️;;;\nFN:Gabi Bot 🗣️\nORG:Gabi Bot 🗣️\nTITLE:\nitem1.TEL;waid=5491127914352:+54 911 2791 4352\nitem1.X-ABLabel:Gabi Bot 🗣️\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭 ✍\nEND:VCARD`
+    await this.sendMessage(nk.from, { contacts: { displayName: 'Gabi Bot 🗣️', contacts: [{ vcard }] }}, {quoted: callmsg})
     await this.updateBlockStatus(nk.from, 'block')
     }
     }
@@ -1485,7 +1485,7 @@ global.dfail = (type, m, conn) => {
         restrict: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙴𝚂𝚃𝙰 𝚁𝙴𝚂𝚃𝚁𝙸𝙽𝙶𝙸𝙳𝙾/𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾 𝙿𝙾𝚁 𝙳𝙴𝚂𝙸𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾/𝙰 (𝙾𝚆𝙽𝙴𝚁) 𝙳𝙴𝙻 𝙱𝙾𝚃*\n\n\n[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ]*THIS COMMAND IS REGISTERED/DISABLED BY DECISION OF THE OWNER OF THE BOT*'
          }[type]
     let aa = { quoted: m, userJid: conn.user.jid }
-    let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: '𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭' , thumbnail: imagen1, sourceUrl: 'https://instagram.com/geral_ventas18?igshid=NTc4MTIwNjQ2YQ==' }}}}, aa)
+    let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: 'Gabi Bot' , thumbnail: imagen1, sourceUrl: 'https://instagram.com/g_ventas18?igshid=NTc4MTIwNjQ2YQ==' }}}}, aa)
     if (msg) return conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id })
     //if (msg) return m.reply(msg)
 }
