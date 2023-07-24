@@ -19,11 +19,11 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let str = `╭「 Bᴏɴɴɪ💕 」
+let str = `╭「 Gabi x Naye Bot 」
 │➯ *𝗛ᴏʟᴀ,➟${taguser}
-│➯ *𝙲𝚁𝙴𝙰𝙳𝙾𝚁:Geral-Bot
-│➯ *𝙸𝙽𝙵𝙾: Wa.me/51935763050
-│➯ *Yape: 900711258
+│➯ *𝙲𝚁𝙴𝙰𝙳𝙾𝚁:Gabi-Bot
+│➯ *𝙸𝙽𝙵𝙾: Wa.me/+5491127914352
+│➯ *Yape: 917631563
 │➯ *ғᴇᴄʜᴀ:➟${date}
 │➯ *ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:➟${uptime}
 │➯ *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}
@@ -34,7 +34,7 @@ let str = `╭「 Bᴏɴɴɪ💕 」
 │➯ *🧿Experiencia:* ${exp}
 │➯ *⚓Rango:* ${role}
 │➯ *💎Diamantes:* ${limit}
-│➯ *👾Hades-Coins:* ${money}
+│➯ *👾GabiCoins:* ${money}
 │➯ *🪙Tokens:* ${joincount}
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
