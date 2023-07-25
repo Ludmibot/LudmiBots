@@ -25,7 +25,7 @@
 
 ### `—◉ 🌌 ACTIVAR EN REPLIT 🌌`
 
-[![Run on Repl.it](https://repl.it/badge/github/OFC-YOVANI/HATSUNE-MIKU)](https://repl.it/github/OFC-YOVANI/HATSUNE-MIKU)
+[![Run on Repl.it](https://repl.it/badge/github/Nayee22/Pruebas)](https://repl.it/github/Naye22/Pruebas)
 
 ### `—◉ 💥 ACTIVAR EN KOYEB 💥`
 
