@@ -3,10 +3,10 @@ var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.present
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let text = `╭─「➻❥ *owner* ➻❥」
 │➯ Gabi Bot
-│➯Wa.me/5491127914352 (CREADOR)
-│➯Wa.me/5491127914352 (CREADOR) 
-│➯Wa.me/5491127914352 (CREADOR)
-│➯Wa.me/5491127914352  (CREADOR)
+│➯Wa.me/5493813300744 (CREADOR)
+│➯Wa.me/5493813300744 (CREADOR) 
+│➯Wa.me/5493813300744 (CREADOR)
+│➯Wa.me/5493813300744  (CREADOR)
 ╰───────────────╯`.trim()   
 let buttonMessage= {
 'document': { url: `https://github.com/Nayee22` },
