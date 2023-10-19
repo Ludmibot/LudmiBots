@@ -21,9 +21,9 @@ var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.present
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let str = `╭「 Gabi x Naye Bot 」
 │➯ *𝗛ᴏʟᴀ,➟${taguser}
-│➯ *𝙲𝚁𝙴𝙰𝙳𝙾𝚁:Gabi-Bot
-│➯ *𝙸𝙽𝙵𝙾: Wa.me/+5491127914352
-│➯ *Yape: 917631563
+│➯ *𝙲𝚁𝙴𝙰𝙳𝙾𝚁: Ezequiel
+│➯ *𝙸𝙽𝙵𝙾: Wa.me/+51907183648
+│➯ *Yape: 907183648
 │➯ *ғᴇᴄʜᴀ:➟${date}
 │➯ *ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:➟${uptime}
 │➯ *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}
