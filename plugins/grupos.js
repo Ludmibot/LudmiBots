@@ -20,8 +20,8 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `╭「 Bᴏɴɴɪ💕 」
 │➯𝗛ᴏʟᴀ,➟${taguser}
-│➯ *𝙲𝚁𝙴𝙰𝙳𝙾𝚁:Geral-Bot
-│➯ *𝙸𝙽𝙵𝙾: Wa.me/51935763050
+│➯ *𝙲𝚁𝙴𝙰𝙳𝙾𝚁: ludmibot
+│➯ *𝙸𝙽𝙵𝙾: Wa.me/5493813300744
 │➯ *Yape: 900711258
 │➯ғᴇᴄʜᴀ:➟${date}
 │➯ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:➟${uptime}
@@ -29,12 +29,12 @@ let str = `╭「 Bᴏɴɴɪ💕 」
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭「➻❥*Grupos y cuentas*➻❥」
-│➯𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰
-│➯https://chat.whatsapp.com/KnQXMl0VGec71K9K42Vaon
-│➯𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰
-│➯https://chat.whatsapp.com/KnQXMl0VGec71K9K42Vaon
-│➯𝙷𝙰𝚃𝚂𝚄𝙽𝙴-𝙼𝙸𝙺𝚄-𝚄𝙻𝚃𝚁𝙰
-│➯https://chat.whatsapp.com/BuloWd29LSnDZHXtUJDybF
+│➯ludmibot
+│➯https://chat.whatsapp.com/Htl9XUuRKud73O6sAlMNFZ
+│➯ludmibot
+│➯https://chat.whatsapp.com/Htl9XUuRKud73O6sAlMNFZ
+│➯ludmibot
+│➯https://chat.whatsapp.com/Htl9XUuRKud73O6sAlMNFZ
 │➯𝚙á𝚐𝚒𝚗𝚊 𝚍𝚎 𝙵𝚊𝚌𝚎𝚋𝚘𝚘𝚔
 │➯https://www.facebook.com/groups/987464505464904/?ref=share
 │➯𝚌𝚊𝚗𝚊𝚕 𝚍𝚎 𝚈𝚘𝚞𝚃𝚞𝚋𝚎
@@ -42,7 +42,7 @@ let str = `╭「 Bᴏɴɴɪ💕 」
 │➯𝚌𝚊𝚗𝚊𝚕 𝚍𝚎 𝚍𝚒𝚜𝚌𝚘𝚛𝚍 
 │➯https://discord.gg/nQVWW6xv
 │➯INSTAGRAM
-│➯https://instagram.com/ofc.yovani.bot?igshid=ZDc4ODBmNjlmNQ==
+│➯https://instagram.com/venta_bot_ludmi
 │➯KIKTOK
 │➯https://vm.tiktok.com/ZM2rbFWnr/
 ︎╰───────────────╯`.trim()
